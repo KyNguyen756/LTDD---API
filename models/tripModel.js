@@ -10,7 +10,7 @@ const tripSchema = new mongoose.Schema({
           required: true 
     },
     date: {
-         type: Date,
+         type: String,
           required: true 
     },
     time: {
@@ -22,6 +22,10 @@ const tripSchema = new mongoose.Schema({
     },
     des: {
         type: String 
+    },
+    price: {
+        type: String,
+        required: true
     },
     guideImg: {
         type: String
