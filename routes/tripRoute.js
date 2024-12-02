@@ -7,6 +7,6 @@ tripRouter.post("/create", tripController.createTrip);
 
 tripRouter.put("/update/:id", tripController.updateTrip);
 
-tripRouter.delete("/delete/:id", );
+tripRouter.delete("/delete/:id", tripController.deleteTrip);
 
 module.exports = tripRouter;
